@@ -65,29 +65,23 @@ projeto/
 
 Possíveis Melhorias
 
-1.	Melhor tratamento de exceções: 
-	Capturar e tratar erros específicos durante a consulta de CEPs e envio de e-mails.
+1.   Melhor tratamento de exceções: 
+     Capturar e tratar erros específicos durante a consulta de CEPs e envio de e-mails.
 
-2.	Paginação no PDF: 
-	Gerar relatórios PDF com várias páginas, se necessário.
-	Integração com banco de dados: Salvar e consultar informações diretamente de um banco de dados, em vez de arquivos CSV.
+2.   Variáveis sensíveis
+     As credenciais do e-mail (EMAIL_ORIGEM e EMAIL_SENHA E EMAIL_DESTINO) estão no código. Recomendo usar variáveis de ambiente ou um arquivo .env para armazenar essas informações, utilizando bibliotecas como python-dotenv.
 
-3. Variáveis sensíveis
-As credenciais do e-mail (EMAIL_ADDRESS e EMAIL_PASSWORD) estão no código. Recomendo usar variáveis de ambiente ou um arquivo .env para armazenar essas informações, utilizando bibliotecas como python-dotenv.
-
-4.  Mensagens de log
+3.  Mensagens de log
     Adicionar mensagens de log para monitorar o progresso e possíveis erros seria útil, especialmente em tarefas longas como envio de e-mails
     Pode-se usar a biblioteca logging para registrar eventos importantes, como consultas bem-sucedidas ou falhas na API.
-    
-5.  Validação de CEP: 
+
+4.  Validação de CEP: 
     Antes de fazer a chamada à API, validar o formato do CEP. Isso pode evitar chamadas desnecessárias
 
-6.  Tratamento de erros:
-    Adicionar tratamento de erros para lidar com situações inesperadas, como falhas na API ou problemas de conexão.,
+5.  Tratamento de erros:
+    Adicionar tratamento de erros para lidar com situações inesperadas, como falhas na API ou problemas de conexão.
 
 ________________________________________
 Desenvolvido por Eduardo Nabarro
- 
-
  
 
