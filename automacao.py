@@ -11,7 +11,7 @@ from fpdf import FPDF
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_ORIGEM = "eduardomnabarro@gmail.com"
-EMAIL_SENHA = "tjhdmawjkkbbgwdn"
+EMAIL_SENHA = "tjhdmawdn"
 EMAIL_DESTINATARIO = "eduardomnabarro@gmail.com"
 
 # Função 1: Consulta CEPs via API e salva os resultados em um CSV
