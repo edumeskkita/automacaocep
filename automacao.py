@@ -147,7 +147,7 @@ if __name__ == "__main__":
     arquivo_pdf = "relatorio.pdf"
 
     consulta_ceps_api(arquivo_entrada, arquivo_saida)
-    #envia_emails(arquivo_saida)
+    envia_emails(arquivo_saida)
     gera_relatorio_pdf(arquivo_saida, arquivo_pdf)
 
     print("Automação concluída com sucesso!")
